@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Karen Gertenbach|Train Scheduler</title>
+	<link href="assets/css/style.css" rel="stylesheet">
+	<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+</head>
+<body>
+
+		<div class="jumbotron">
+    <div class="wrapper">
+
+        <div class="table_header container center last">
+          <h1>Train Scheduler</h1>
+				</div>
+				
+			</div>
+
+        <div class="table row container">
+          <div class="row"><h2>Current Train Schedule</h2></div>
+          <div class="column table_header">Train Name</div>
+          <div class="column table_header">Destination</div>
+          <div class="column table_header">Frequency (mins)</div>
+          <div class="column table_header">Next Arrival</div>
+          <div class="column table_header last">Minutes Away</div>
+
+          <div id="train-display" class="clear"></div>
+
+				</div>
+				
+				<form>
+						<div class="row">
+					 	<div class="col-xs-6 col-xs-offset-3">
+						 <form id="newScheduleForm">
+							<div class="form-group">
+        			<div class="table container">
+            	<div class="row"><h2>Add Train</h2></div>
+            
+            <div class="table_header row last">Train Name</div>
+              <div><input type="text" required="required" class="input-box" id="train-name"</input></div>
+            
+            <div class="table_header row last">Destination</div>
+              <div><input type="text" required="required" class="input-box" id="destination"</input></div>
+
+            <div class="table_header row last">First Train Time (HH:mm -- military time)</div>
+              <div><input type="text" required="required" class="input-box" id="first-train"</input></div>
+            
+            <div class="table_header row last">Frequency (mins)</div>
+              <div><input type="text" required="required" class="input-box" id="frequency"</input></div>
+
+            <div class="row">
+              <div><button id="submit-button">Submit</button></div>
+				</div>
+			</div>
+		</div>
+		</form>
+    </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+
+  </body>
+</html>

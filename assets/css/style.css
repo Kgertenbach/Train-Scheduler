@@ -1,0 +1,97 @@
+p
+{
+	font-size: 18px;
+	color: white;
+	margin-left: 10px;
+}
+
+.jumbotron
+{
+	text-align: center;
+}
+
+#tableHeader
+{
+	margin-top: 20px;
+	background-color: #337ab7;
+}
+
+
+
+.time
+{
+	border-radius: 5px;
+	font-size: 25px;
+	width: 120px;
+	background-color: #337ab7;
+	text-align: center;
+}
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.container {
+  border: 1px solid;
+  padding: 7px;
+}
+
+.table {
+  margin: 15px;
+  
+  clear: all;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  border: 1px solid;
+  border-top:0;
+  border-right:0;
+  padding: 7px;
+}
+
+.table_header {
+  font-weight: 800;
+  background-color: #df710a;
+  border: 1px solid;
+  border-right: 0px;
+  padding:7px;
+}
+
+.last {
+  border-right: 1px solid; 
+}
+
+.row {
+  overflow: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.input-box {
+  border: 0px 1px 1px 1px solid;
+  margin: 10px 0px 30px 0px;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+}
